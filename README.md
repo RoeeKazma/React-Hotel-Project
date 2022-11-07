@@ -2,7 +2,9 @@
 
 ## How to view the project - 
 
--- 1 -- Go to (link)
+-- 1 -- clone this repository
+
+-- 2 -- write "npm i" in both "api" and "Client" terminal folder
 
 -- 2 -- login with username:password - test123:123456
 
@@ -25,5 +27,6 @@
 - After you search a hotel for your destination, you can filter the results for your Minimum and Maximum Prices
 - If you'll try to reserve a room without being logged in you will be transfered to the login page (username:password - test123:123456)
 - There is a price calculation for each hotel x nights staying
+- You can click the hotel images to view them in gallery form
 - When you reserve a room it can't be reserved anymore for the time that you reserved it
 - Only admin users can send http requests to created hotels and rooms, it goes through the proper authentication to authorize the user (JWT, cookies)
