@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Roee Kazma - React Booking clone project - 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to view the project - 
 
-## Available Scripts
+-- 1 -- Go to (link)
 
-In the project directory, you can run:
+-- 2 -- login with username:password - test123:123456
 
-### `npm start`
+-- 3 -- search for "TLV"/"Berlin" in the search bar and choose how many nights you are staying
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+-- 4 -- choose a hotel of your liking
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-- 5 -- reserve a room for yourself, now one else can now reserve for the time that you reserved the room, try it :)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Things to know about the project - 
 
-### `npm run build`
+- This project is was made using ReactJs, pure CSS, NodeJs and MongoDB.
+- all of the data for the hotels are "handmade" by using http requests that can be turned into an admin panel in a later time.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features - 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- In the home page there is a section that shows how many properties there are for each place (new york for example) which is true to the database I've created, same for the next section (Hotels/Apartments/Resorts/Vilas)
+- Lower in the home page there is a "Homes guests love" section that only shows the admins chosen featured properties.
+- After you search a hotel for your destination, you can filter the results for your Minimum and Maximum Prices
+- If you'll try to reserve a room without being logged in you will be transfered to the login page (username:password - test123:123456)
+- There is a price calculation for each hotel x nights staying
+- When you reserve a room it can't be reserved anymore for the time that you reserved it
+- Only admin users can send http requests to created hotels and rooms, it goes through the proper authentication to authorize the user (JWT, cookies)
