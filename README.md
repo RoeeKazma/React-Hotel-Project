@@ -30,3 +30,20 @@
 - You can click the hotel images to view them in gallery form
 - When you reserve a room it can't be reserved anymore for the time that you reserved it
 - Only admin users can send http requests to created hotels and rooms, it goes through the proper authentication to authorize the user (JWT, cookies)
+
+
+## Screenshots - 
+- Home Screen - 
+<img src="Client\src\Assets\Capture.PNG" alt="homeScreen"/>
+
+- Hotel Search Screen - 
+
+<img src="Client\src\Assets\Capture2.PNG" alt="hotelSearchScreen"/>
+
+- Hotel Screen - 
+
+<img src="Client\src\Assets\Capture3.PNG" alt="hotelScreen"/>
+
+- Reserve Screen - 
+
+<img src="Client\src\Assets\Capture4.PNG" alt="reserveScreen"/>
